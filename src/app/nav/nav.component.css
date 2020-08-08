@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #009A49!important;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    color: #FF7900!important;
+}
+i, .fa-leaf {
+    margin-left: -10px;
+}

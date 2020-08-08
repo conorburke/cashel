@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container link-container">
+        <div class="link-container-left">
+            <a class="navbar-brand" [routerLink]="['/home']">Cashel Consulting</a>
+            <i class="fa fa-leaf fa-lg"></i>
+        </div>
+        <div class="link-container-right">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/services']">Services</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/about']">About</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+</nav>
