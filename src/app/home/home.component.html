@@ -1,1 +1,50 @@
-<p>home works!</p>
+<carousel>
+    <slide>
+        <img src="assets/images/carousel/capital.jpg" alt="first slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </slide>
+    <slide>
+        <img src="assets/images/carousel/business.jpg" alt="second slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </slide>
+    <slide>
+        <img src="assets/images/carousel/ocean.jpg" alt="third slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+    </slide>
+</carousel>
+<h1>
+    Who We Are
+</h1>
+<h3>Over 30 Years of International Trade and Investment Experience</h3>
+<div class="container card-container">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Business Development</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a [routerLink]="['/services']" fragment="tab0" class="btn btn-primary">Find Out More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">International Investment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a [routerLink]="['/services']" fragment="tab1" class="btn btn-primary">Find Out More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Trade Relationships</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a [routerLink]="['/services']" fragment="tab2" class="btn btn-primary">Find Out More</a>
+        </div>
+      </div>
+</div>
